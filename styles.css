@@ -164,6 +164,9 @@ body{color:var(--ink);background:#fff}.rainbow-bar{background:linear-gradient(90
 .platinum-badges{display:flex;align-items:center;justify-content:center;gap:12px}.platinum-badges .platinum-mark{width:108px;height:108px;flex:0 0 108px}
 @media(max-width:900px){.platinum-badges{gap:9px}.platinum-badges .platinum-mark{width:74px;height:74px;flex-basis:74px}}
 @media(max-width:640px){.platinum-badges{gap:6px}.platinum-badges .platinum-mark{width:43px;height:43px;flex-basis:43px}}
+.platinum-course-layout{max-width:1120px;margin:75px auto 0}
+@media(min-width:901px){.platinum-course-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(315px,360px);align-items:stretch;gap:22px}.platinum-course-layout .platinum-trust{max-width:none;height:100%;margin:0;grid-template-columns:166px minmax(0,1fr);gap:24px;padding:34px 36px}.platinum-course-layout .platinum-route{grid-column:1/-1;border-left:0;border-top:1px solid #e6e9ea;padding:18px 0 0}.platinum-course-layout .course-announce-after-platinum{max-width:none;height:100%;margin:0;grid-template-columns:1fr;align-content:center;gap:20px;padding:32px 30px 30px}.platinum-course-layout .course-announce-after-platinum strong{font-size:23px}.platinum-course-layout .course-announce-after-platinum b{width:max-content}}
+@media(max-width:900px){.platinum-course-layout{max-width:none;margin:0}}
 
 .case-grid{max-width:780px;margin-top:26px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.reel-intro .case-grid .case{max-width:none;margin:0}.case-grid .case strong{font-size:21px;line-height:1.35}.case-grid .case span{min-height:32px;line-height:1.7}
 @media(max-width:640px){.case-grid{grid-template-columns:1fr;margin-top:22px}.case-grid .case strong{font-size:20px}.case-grid .case span{min-height:0}}
