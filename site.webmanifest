@@ -1,0 +1,18 @@
+{
+  "name": "虹オフィス Luna",
+  "short_name": "虹オフィス",
+  "description": "占い師向けの集客支援、Canvaテンプレ、霊視講座を案内する虹オフィスLuna公式サイト。",
+  "lang": "ja",
+  "start_url": "/nijioffice-official-site/",
+  "scope": "/nijioffice-official-site/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#28bea4",
+  "icons": [
+    {
+      "src": "assets/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
