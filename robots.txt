@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nijioffice0104.github.io/nijioffice-official-site/sitemap.xml
+Sitemap: https://nijioffice.com/lp/sitemap.xml
